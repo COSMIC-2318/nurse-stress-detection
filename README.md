@@ -1,6 +1,6 @@
 # 🩺 Physiological Stress Detection API
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Now-green?style=for-the-badge&logo=render)](INSERT_YOUR_DEPLOYED_URL_HERE)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Now-green?style=for-the-badge&logo=render)](https://nurse-stress-detection-cosmic.onrender.com)
 
 A Deep Learning-powered web application that provides real-time stress assessment for healthcare professionals. Built using a Keras Neural Network and deployed as a Flask API.
 
