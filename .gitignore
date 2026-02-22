@@ -1,0 +1,17 @@
+# Virtual Environments
+myenv/
+env/
+venv/
+
+# Compiled Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables (Security)
+.env
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
