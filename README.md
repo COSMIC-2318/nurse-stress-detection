@@ -22,6 +22,8 @@ This system takes raw physiological data and processes it through a machine lear
 ## DATASET
 👉 **(https://www.kaggle.com/datasets/priyankraval/nurse-stress-prediction-wearable-sensors)**
 
+---
+
 ### **The Assessment Process:**
 1. **Data Entry:** User provides EDA (Skin Conductance), Heart Rate, and Temperature.
 2. **Preprocessing:** Data is normalized using a pre-fitted `StandardScaler`.
