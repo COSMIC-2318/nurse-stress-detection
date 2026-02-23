@@ -46,6 +46,6 @@ This system takes raw physiological data and processes it through a machine lear
 ---
 
 ## 👨‍💻 Developer
-**Ankit Bajpayee** *B.Tech in Artificial Intelligence & Machine Learning* *Dr. B. C. Roy Engineering College*
+**Ankit Bajpayee** *B.Tech in Artificial Intelligence & Machine Learning* 
 
 ---
