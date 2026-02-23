@@ -3,6 +3,11 @@ import numpy as np
 from flask import Flask, request, render_template
 from tensorflow.keras.models import load_model
 
+import gc
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress TF logs
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0' # Disable memory-heavy optimizations
+
 # Initialize the Flask application
 app = Flask(__name__)
 
@@ -70,7 +75,9 @@ def predict():
         
         # 6. Render the template, passing the status, tips, and the UI color class
         return render_template('index.html', prediction_text=result_status, tips=health_tips, alert_class=alert_class)
+        gc.collect()
 
+    
     except Exception as e:
         # Failsafe to show errors on the webpage
         return render_template('index.html', prediction_text=f'Error processing request: {str(e)}', alert_class="status-danger")
